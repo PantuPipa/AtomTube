@@ -1,0 +1,11 @@
+/build/
+/amostras/
+/AtomTube-*.zip
+*.obj
+*.pdb
+*.pyc
+__pycache__/
+google-oauth.json
+client_secret*.json
+youtube-account.bin
+AtomTube_Log_*.txt

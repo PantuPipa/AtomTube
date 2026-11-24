@@ -1,0 +1,23 @@
+Componentes de terceiros no pacote portátil do AtomTube
+
+Os avisos de licença acompanham os componentes em youtube/.
+
+yt-dlp Vista+ x86 2026.10.26
+Pacote e instruções de compilação:
+https://github.com/3dyd/yt-dlp-builds/releases/tag/2026.10.26
+Código do yt-dlp:
+https://github.com/yt-dlp/yt-dlp/tree/2026.10.26
+
+QuickJS 2026-06-04 i686
+Código e binários do autor:
+https://bellard.org/quickjs/
+
+FFmpeg 6.0 Win32 LGPL, compilação compartilhada
+Código na revisão 549430e14d:
+https://github.com/FFmpeg/FFmpeg/tree/549430e14d
+Scripts e dependências do distribuidor dessa compilação:
+https://github.com/sudo-nautilus/FFmpeg-Builds-Win32
+
+VLC / libVLC 3.0.23 para Win32
+Código e compilação do VideoLAN:
+https://download.videolan.org/pub/videolan/vlc/3.0.23/
