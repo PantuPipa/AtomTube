@@ -1,16 +1,29 @@
-# AtomTube
+<p align="center">
+  <img src="docs/imagens/icone-atomtube.png" alt="Ícone do AtomTube" width="124">
+</p>
+<h1 align="center">AtomTube</h1>
+<p align="center">YouTube de volta aos netbooks.</p>
 
-O AtomTube nasceu para trazer os netbooks de volta ao YouTube. Ele usa uma interface nativa e um reprodutor leve para pesquisar e assistir vídeos em máquinas com pouca memória, como os netbooks da geração Intel Atom. O ZIP é portátil e foi compilado para Windows 7 SP1 de 32 bits.
+O AtomTube usa uma interface nativa e um reprodutor leve para pesquisar e assistir vídeos em máquinas com pouca memória, como os netbooks da geração Intel Atom.
+
+**Windows 7 SP1, 10 e 11.** O pacote é portátil, com executável de 32 bits para os netbooks originais e compatibilidade com edições modernas do Windows que executam aplicativos x86. As capturas desta página e os testes de busca e dos controles do player da versão 0.9.2 foram feitos no Windows 10 22H2. [Compatibilidade de aplicativos de 32 bits no Windows](https://learn.microsoft.com/pt-br/windows/win32/winprog64/running-32-bit-applications)
 
 **Testado em um Intel Atom N2600 com 2 GB de RAM e Intel GMA 3600.** Em ensaios locais de cinco minutos, o aparelho reproduziu amostras 720p à velocidade normal, mantendo a cadência de origem de 24 ou 30 fps. O ensaio usou Windows 7 SP1 de 64 bits com um driver de testes da Intel. O desempenho com vídeos online varia com os formatos disponíveis, a rede e o driver. [Resultados e condições dos testes](docs/benchmarks.md)
 
-[**Baixar AtomTube 0.9.2 para Windows de 32 bits**](https://github.com/PantuPipa/AtomTube/releases/tag/v0.9.2)
+**[Baixar AtomTube 0.9.2 · ZIP portátil para Windows](https://github.com/PantuPipa/AtomTube/releases/download/v0.9.2/AtomTube-0.9.2-x86.zip)** · [Ver a versão e o SHA-256](https://github.com/PantuPipa/AtomTube/releases/tag/v0.9.2)
+
+![Tela inicial do AtomTube com campo de busca, controle de resolução e abas Para você, Inscrições e Ver no AtomTube](docs/imagens/tela-inicial.jpg)
 
 ## Usar
 
 Em **Releases**, baixe **AtomTube-0.9.2-x86.zip**, extraia o conteúdo em uma pasta e execute **AtomTube.exe**. Na tela inicial, digite um assunto ou cole um link e pressione Enter. Também é possível usar **Abrir MP4** para reproduzir um arquivo local. A pesquisa e a reprodução de vídeos públicos funcionam sem conta.
 
 A aba **Para você** carrega até 15 vídeos. A seleção parte das buscas recentes e dos canais assistidos neste PC. No primeiro uso, sugere ciência e astronomia. Com uma conta conectada, também inclui publicações de canais inscritos.
+
+<p>
+  <img src="docs/imagens/atomzinho.png" alt="Atomzinho, mascote azul do AtomTube, fazendo sinal de positivo" width="108"><br>
+  O Atomzinho acompanha a busca e indica as etapas enquanto o vídeo carrega.
+</p>
 
 ## Conectar sua conta do YouTube
 
@@ -34,6 +47,11 @@ A lista segue a ordem definida no YouTube e carrega até 15 itens por consulta. 
 **Inscrições** mostra os vídeos públicos recentes de até 12 canais, ordenados por atividade. O aplicativo guarda o token protegido pelo Windows e conserva a lista por uma hora para reduzir consultas. **Desconectar** remove do PC o token e a lista de inscrições. Para revogar também o acesso no Google, use [Conexões da conta](https://myaccount.google.com/connections).
 
 ## Busca e controles
+
+<p>
+  <img src="docs/imagens/busca.jpg" alt="Busca por matemática no AtomTube com resultados em lista" width="49%">
+  <img src="docs/imagens/player.jpg" alt="Player do AtomTube exibindo uma aula com controles de reprodução e vídeos relacionados" width="49%">
+</p>
 
 Na busca, alterne entre **Vídeos**, **Canais** e **Playlists**. Clique em um título para abri-lo ou use as setas e Enter. A foto e o nome do autor abrem o canal. Use **Carregar mais** para acrescentar até 15 resultados. No canal, as abas **Vídeos**, **Ao vivo** e **Playlists** organizam o catálogo. O campo **Pesquisar neste canal** limita a busca ao canal aberto. As transmissões encerradas podem ser reproduzidas quando o YouTube disponibiliza a gravação.
 
